@@ -64,13 +64,13 @@ h3{
      box-shadow: unset;
 }
 
-.well img{
+#about2 .well img{
     display: none;
 }
 
 @media (min-width: 992px){
 
-    .well img{
+    #about2 .well img{
         display: initial;
     }
 
