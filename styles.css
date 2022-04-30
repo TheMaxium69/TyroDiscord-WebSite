@@ -1,0 +1,96 @@
+/*ALL*/
+p{
+    color: #1c1c1c;
+}
+
+h1{
+    /*font-size: 72px;*/
+    background: -webkit-linear-gradient(#f00, #174ae9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h3{
+    color: black;
+}
+
+.btn-default{
+    background: linear-gradient(0.38turn, rgb(255 0 0), rgb(35 70 220)) no-repeat center center;
+}
+
+.btn-default:hover{
+    background: linear-gradient(0.38turn, rgb(122 2 2), rgb(17 42 151)) no-repeat center center;
+}
+
+/*SLIDEBAR*/
+
+.nav {
+    display: unset;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:hover,
+.nav-pills>li.active>a:focus {
+    color: #ffb300;
+    background-color: #27272c;
+}
+
+/*HEADER*/
+
+.jumbotron{
+    background: linear-gradient(rgb(254 249 0), rgb(254 89 0)) no-repeat center center fixed;
+    color: black;
+}
+
+.jumbotron h1{
+    background: unset;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    color: black;
+
+}
+
+.jumbotron hr {
+    width: 80%;
+    margin: 5px auto;
+    border-color: #000000;
+}
+
+/*about*/
+
+.well {
+     background-color: unset;
+     border-radius: unset;
+     box-shadow: unset;
+}
+
+.well img{
+    display: none;
+}
+
+@media (min-width: 992px){
+
+    .well img{
+        display: initial;
+    }
+
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #262626;
+    border-top: 10px solid;
+    border-color: #ffa600;
+    padding: 20px 0 40px;
+}
+footer span{
+    text-align: center;
+}
+footer img {
+    width: 70px;
+}
+
+footer a:hover{
+    color: white;
+}
