@@ -22,6 +22,16 @@ h3{
     background: linear-gradient(0.38turn, rgb(122 2 2), rgb(17 42 151)) no-repeat center center;
 }
 
+img:hover {
+    transform: translate(0, -5px);
+    transform: translate3d(0, -5px, 0);
+}
+img{
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.2s ease-out;
+    will-change: transform;
+}
+
 /*SLIDEBAR*/
 
 .nav {
@@ -66,6 +76,14 @@ h3{
 
 #about2 .well img{
     display: none;
+}
+
+@media (max-width: 991px){
+
+    #about2 .col-md-4 {
+        display: none;
+    }
+
 }
 
 @media (min-width: 992px){
